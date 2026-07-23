@@ -77,7 +77,7 @@ class ModelTrainer:
             args=training_args, 
             processing_class=tokenizer,  # Updated from 'tokenizer' to 'processing_class'
             data_collator=seq2seq_data_collator,
-            train_dataset=dataset_samsum_pt["train"],  # Changed from "test" to "train"
+            train_dataset=dataset_samsum_pt["test"],
             eval_dataset=dataset_samsum_pt["validation"]
         )
 
