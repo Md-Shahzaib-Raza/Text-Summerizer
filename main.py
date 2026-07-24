@@ -4,7 +4,7 @@ from TextSummerizer.pipeline.stage_01_data_ingestion import DataIngestionTrainin
 from TextSummerizer.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from TextSummerizer.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from TextSummerizer.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
-from TextSummerizer.pipeline.stage_05_model_trainer import ModelEvaluationTrainingPipeline
+from TextSummerizer.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 from TextSummerizer.logging import logger
 
 STAGE_NAME = "Data Ingestion stage"
