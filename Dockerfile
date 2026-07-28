@@ -2,7 +2,7 @@ FROM python:3.8-slim
 
 WORKDIR /app
 
-COPY setup.py requirements.txt README.md ./
+COPY setup.py requirements.txt README.md src ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
